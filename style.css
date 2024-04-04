@@ -82,13 +82,15 @@ body{
 }
 #container7{
     display: flex;
-    gap: 50%;
+    gap: 40%;
 }
 .arrow{
-    font-size: 40px;
-}
-#arrow{
+    font-size: 20px;
     color: #1CA6A6;
+}
+.arrow2{
+    color: #1CA6A6;
+    font-size: 40px;
 }
 .doctor1{
     height: 380px;
