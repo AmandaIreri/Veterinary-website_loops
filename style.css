@@ -1,0 +1,151 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin: 0 5%;
+}
+#navbar{
+    display: flex;
+    gap: 50%;
+    background-color: #E9FAFC;
+    padding: 2% 0;
+}
+#about{
+    display: flex;
+    gap: 20%;
+}
+#container1{
+    display: flex;
+    gap: 30%;
+    background-color: #E9FAFC;
+
+}
+.play{
+    width: 24px;
+    height: 24px;
+}
+.button1{
+    height: 40px;
+    width: 130px;
+    background-color: #1CA6A6;
+    color: #E5F8FB;
+    border-radius: 10px;
+    border: white;
+    font-size: 15px;
+}
+.orange{
+    color: #F26513;
+}
+.button2{
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+}
+#container2{
+    display: flex;
+    gap: 40%;
+}
+.services{
+    font-size: 40px;
+}
+#container3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 5%;
+}
+#container4{
+    display: flex;
+    gap: 20%;
+    background-color: #E9FAFC;
+    padding: 3% 2%;
+}
+#doctor1{
+    background-color: #E5F8FB;
+}
+#container5{
+    display: flex;
+    gap: 40%;
+}
+#container6{
+    display: flex;
+    gap: 20%;
+    padding: 0 5%;
+
+}
+.stars{
+    color: #F26513;
+
+}
+.reviewer{
+    width: 50px;
+    height: 60px;
+    border-radius: 70px;
+}
+#container7{
+    display: flex;
+    gap: 50%;
+}
+.arrow{
+    font-size: 40px;
+}
+#arrow{
+    color: #1CA6A6;
+}
+.doctor1{
+    height: 380px;
+    width: 350px;
+    object-fit: cover;
+}
+#doctors{
+    display: flex;
+    gap: 20%;
+    padding: 0 6%;
+}
+.doctors1{
+    height: 360px;
+    width: 300px;
+    object-fit: cover;
+}
+.doctors2{
+    height: 360px;
+    width: 300px;
+    object-fit: cover;
+}
+.doctors3{
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
+}
+#container8{
+    padding: 5% 40%;
+    background-color: #E9FAFC;
+}
+input{
+    height: 50px;
+    width: 230px;
+    border: white;
+    padding: 0 5%;
+}
+#input{
+    display: flex;
+    gap: 2%;
+    background-color: white ;
+    width: 120%;
+    font-size: 30px;
+}
+#container9{
+    display: flex;
+    gap: 20%;
+    padding: 5% 0%;
+}
+span{
+    color: #6E6F93;
+}
+#icons{
+    display: flex;
+    gap: 10%;
+}
+.icons{
+    width: 20px;
+    height: 20px;
+    border-radius: 150%;
+}
