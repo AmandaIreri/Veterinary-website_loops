@@ -100,8 +100,17 @@ body{
     padding: 5% 2%;
 }
 #doctor1{
-    background-color: #E5F8FB;
-    border: solid;
+    background-color: #CFE4E7;
+    width: 40%;
+    position: relative;
+}
+#popup{
+    position: absolute;
+    border: solid white;
+    background-color: #F2F2F2;
+    bottom: 50%;
+    border-radius: 20px;
+    font-size: 15px;
 }
 #container5{
     display: flex;
@@ -119,8 +128,9 @@ body{
 }
 .reviewer{
     width: 50px;
-    height: 60px;
+    height: 50px;
     border-radius: 70px;
+    object-fit: cover;
 }
 #container7{
     display: flex;
@@ -134,9 +144,10 @@ body{
     font-size: 40px;
 }
 .doctor1{
-    height: 480px;
-    width: 350px;
+    height: 520px;
+    width: 400px;
     object-fit: cover;
+    padding-left: 13%;
 }
 #doctors{
     display: flex;
