@@ -39,6 +39,47 @@ body{
     border-radius: 30px;
     height: 40px;
     width: 40px;
+    border: white;
+    background-color: #F2F2F2;
+}
+#cont1{
+    position: relative;
+    /* border: solid; */
+    width: 40%;
+}
+#words{
+    padding: 3% 5%;
+    background-color: #F2F2F2;
+    position: absolute;
+    border-radius: 20px;
+    bottom: 50%;
+    left: 70%;
+    font-size: 15px;
+}
+#emoji1{
+    position: absolute;
+    border: solid white;
+    background-color: #F2F2F2;
+    bottom: 70%;
+    border-radius: 20px;
+    transform: rotate(-35deg);
+}
+.emoji1{
+    width: 40px;
+    height: 40px;
+}
+#emoji2{
+    position: absolute;
+    border: solid white;
+    background-color: #F2F2F2;
+    bottom: 20%;
+    left: 80%;
+    border-radius: 20px;
+    transform: rotate(35deg);
+}
+.emoji2{
+    width: 40px;
+    height: 40px;
 }
 #container2{
     display: flex;
@@ -60,6 +101,7 @@ body{
 }
 #doctor1{
     background-color: #E5F8FB;
+    border: solid;
 }
 #container5{
     display: flex;
