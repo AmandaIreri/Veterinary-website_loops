@@ -56,7 +56,7 @@ body{
     display: flex;
     gap: 20%;
     background-color: #E9FAFC;
-    padding: 3% 2%;
+    padding: 5% 2%;
 }
 #doctor1{
     background-color: #E5F8FB;
@@ -92,7 +92,7 @@ body{
     font-size: 40px;
 }
 .doctor1{
-    height: 380px;
+    height: 480px;
     width: 350px;
     object-fit: cover;
 }
